@@ -32,7 +32,7 @@
         "memoryReservation": null,
         "volumesFrom": [],
         "stopTimeout": null,
-        "image": "IMAGE",
+        "image": "<IMAGE>",
         "startTimeout": null,
         "dependsOn": null,
         "disableNetworking": null,
