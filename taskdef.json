@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::398492223295:role/aws-ecs-instance-role",
+    "executionRoleArn": "arn:aws:iam::398492223295:role/ecs-execution-role",
     "containerDefinitions": [{
         "logConfiguration": {
             "logDriver": "awslogs",
