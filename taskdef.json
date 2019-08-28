@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::398492223295:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::398492223295:role/demo-app-ecs-role",
     "containerDefinitions": [{
         "logConfiguration": {
             "logDriver": "awslogs",
