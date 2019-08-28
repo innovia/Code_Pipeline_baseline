@@ -3,29 +3,17 @@
         "logConfiguration": {
             "logDriver": "awslogs",
             "options": {
-                "awslogs-group": "nginx-test-log-group",
+                "awslogs-group": "demo-app-log-group",
                 "awslogs-region": "us-west-2"
             }
         },
         "portMappings": [{
-            "hostPort": 0,
-            "protocol": "tcp",
             "containerPort": 80
         }],
         "cpu": 100,
         "memory": 128,
-        "image": "TESTER",
+        "image": "<IMAGE>",
         "name": "app"
     }],
-    "compatibilities": [
-        "EC2"
-    ],
-    "family": "app",
-    "requiresAttributes": [{
-            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
-        },
-        {
-            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
-        }
-    ]
+    "family": "app"
 }
