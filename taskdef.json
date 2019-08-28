@@ -13,7 +13,7 @@
         "cpu": 100,
         "memory": 128,
         "image": "<IMAGE>",
-        "name": "app"
+        "name": "demo-app"
     }],
-    "family": "app"
+    "family": "demo-app"
 }
