@@ -16,5 +16,8 @@
         "image": "<IMAGE>",
         "name": "demo-app"
     }],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
     "family": "demo-app"
 }
