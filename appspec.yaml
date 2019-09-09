@@ -3,6 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
+        # The <TASK_DEFINITION> place holder will be replaced by code pipeline with the rendered output of taskdef.json
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
           ContainerName: "demo-app"

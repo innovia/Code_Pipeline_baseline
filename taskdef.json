@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::398492223295:role/ecs-execution-role",
+    "executionRoleArn": "arn:aws:iam::398492223295:role/aws-ecs-execution-role",
     "containerDefinitions": [{
         "logConfiguration": {
             "logDriver": "awslogs",
@@ -13,6 +13,7 @@
         }],
         "cpu": 100,
         "memory": 128,
+        "note": "Do not change this <IMAGE> place holder as code pipeline will replace this with value from the ImageDetails.json file created during the Build phase",
         "image": "<IMAGE>",
         "name": "demo-app"
     }],
